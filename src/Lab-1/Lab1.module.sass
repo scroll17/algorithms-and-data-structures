@@ -1,0 +1,82 @@
+.lab1
+  display: flex
+  flex-direction: column
+  justify-content: start
+
+  .program
+    width: 100%
+    height: 100%
+
+    .heap
+      form
+        display: flex
+        flex-direction: column
+
+        label
+          margin: 10px 0 5px
+
+          display: flex
+          flex-direction: column
+
+          input
+            max-width: 180px
+            margin:
+              left: 20px
+              top: 5px
+
+          button
+            max-width: 188px
+            margin:
+              left: 20px
+              top: 5px
+
+      .heapList
+        display: flex
+        flex-direction: row
+        justify-content: center
+
+        width: 100%
+        height: 100%
+
+        margin-top: 20px
+
+        .heapListItem
+          position: absolute
+
+          display: flex
+          flex-direction: column
+          justify-content: center
+          align-items: center
+
+          border: 2px solid black
+          border-radius: 50%
+
+          padding: 10px
+          cursor: pointer
+
+          .children
+            position: absolute
+
+            display: flex
+            flex-direction: row
+
+  .label
+    margin: 3px 0px 20px 10px
+    font-weight: bold
+
+  .tasks
+    display: flex
+    flex-direction: row
+    justify-content: start
+
+    width: 100%
+    height: 50px
+
+    .taskItem
+      margin: 3px 10px
+      max-height: 25px
+
+      cursor: pointer
+
+    .activeTaskItem
+      border-bottom: aquamarine solid 2px
